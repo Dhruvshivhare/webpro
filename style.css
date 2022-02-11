@@ -1,0 +1,115 @@
+.gameshead{
+  font-variant: small-caps;
+  font-weight: bold;
+  font-style: oblique;
+  margin: 5px;
+  text-align: center;
+  color: #fafafa;
+  font-size: 50px;
+}
+
+/*=------------------------------------------------------------------------*/
+/*=------------------------------------------------------------------------*/
+.navbar{
+  position: fixed;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #c99914;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
+.nav{
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 15%;
+}
+.logo{
+  flex: 1 1 auto;
+  margin-left: 10%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 35px;
+  color: #f7f5f0;
+}
+a{
+  margin: 15px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+  color: #000;
+}
+
+/*=------------------------------------------------------------------------*/
+.home-area{
+  position: relative;
+  background-image: url(https://wallpapercave.com/wp/wp2025285.jpg);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.home-area h1{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  font-family: 'arial';
+  font-size: 4em;
+  transform: translateX(-50%) translateY(-60%);
+  background: rgba(201, 153, 20, .5);
+}
+/*-----------------------------------------------------------------------------*/
+.Game-area{
+columns: 4;
+column-gap: 16px;
+}
+.Game-area img{
+  width: 100%;
+  border-radius: 5px;
+}
+body{
+  background-color: #121212;
+}
+@media (max-width: 1200px){
+  .Game-area{
+    columns: 3;
+  }
+}
+@media (max-width: 992px){
+  .Game-area{
+    columns: 2;
+  }
+}
+.box1{
+  border: 5px solid #c99914;
+  margin: 5px;
+  padding: 5px
+}
+/*--------------------------------------------------------------------------*/
+.gotop{
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px; 
+  font-size: 35px;
+  background: #c99914;
+  color: white;
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+
+}
